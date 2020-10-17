@@ -1,0 +1,53 @@
+.countDown__container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFA17F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.clock {
+    margin-bottom: 2rem;
+}
+
+.clock > span {
+    font-size: 4rem;
+    color: #133b5c;
+    font-weight: 600;
+}
+
+.form__input {
+    margin-right: 15px;
+    height: 1.8rem;
+    border: 3px solid #931a25;
+    border-radius: 6px;
+    background: #d9adad;
+}
+
+.form__input:focus {
+    transform: scale(1.08);
+    transition-duration: 0.2s;
+}
+
+.button {
+    border: none;
+    padding: 0.6rem;
+    border-radius: 6px;
+    background: #ff9a76;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #ff414d;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+    background: #ff414d;
+    color: #ff9a76;
+}
